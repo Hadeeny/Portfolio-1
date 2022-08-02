@@ -23,14 +23,16 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Wordpress, Javascript and PHP. </b>
+                <b className="purple">
+                  {" "}
+                  Wordpress, HTML, CSS, Javascript and PHP.{" "}
+                </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building fast and responsive &nbsp;
+              <br />I love building fast and responsive &nbsp;
               <i>
                 <b className="purple">Websites and Web Applications </b> and
-                also in areas related to{" "}
+                also specialize in{" "}
                 <b className="purple">
                   Search Engine Optimization and Social Media Marketing.
                 </b>
@@ -38,8 +40,9 @@ function Home2() {
               <br />
               <br />
               I'm passionate about creating websites/applications with attention
-              to details and have professional experience working with CMS
-              platforms like <b className="purple">WordPress/Woocommerce</b> and
+              to details and have professional experience working with{" "}
+              <b className="purple">WordPress/Woocommerce</b> and building
+              fullstack applications with
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +51,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, Expressjs and Next.js</b>
               </i>
             </p>
           </Col>
