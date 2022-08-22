@@ -1,21 +1,13 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+  --section-background-color: linear-gradient(to bottom left, #fafafa, #fafafa);
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+  --image-gradient: linear-gradient(to bottom left, #fafafa, #fafafa);
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #1b0e58;
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: RGB(133, 188, 166) !important;
 }
 
 button:focus {
@@ -57,18 +49,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #fafafa;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #333;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #1b0e58;
   border-radius: 12px;
 }
 
@@ -76,7 +68,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #eee !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -97,7 +89,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #1b0e58 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,14 +136,14 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #eee !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .logo {
@@ -160,7 +152,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #333 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -194,7 +186,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #1b0e58;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -214,6 +206,7 @@ button:focus {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+  color: #ffdbb4;
 }
 
 @keyframes wave-animation {
@@ -266,32 +259,35 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: #333;
   text-align: left;
 }
 
 .heading {
   font-size: 2.4em !important;
+  font-family: "montserrat";
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 4em !important;
   padding-left: 45px !important;
+  font-family: "montserrat";
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #1b0e58;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  font-family: "montserrat";
+  color: #1b0e58 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #1b0e58 !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +367,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #1b0e58;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +375,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #1b0e58;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #1b0e58;
+  box-shadow: 0 0 5px #1b0e58;
+  text-shadow: 0 0 2px #1b0e58;
 }
 
 .social-icons {
@@ -395,7 +391,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #1b0e58 !important;
 }
 
 /* --------- */
@@ -439,7 +435,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #1b0e58 !important;
 }
 /* --------- */
 /* Projects */
@@ -460,8 +456,9 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  /* box-shadow: 0 4px 5px 3px #333 !important; */
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  color: #1b0e58 !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -470,7 +467,8 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  /* box-shadow: 0 4px 4px 5px #85bca6 !important; */
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
 }
 
 .blog-card {
@@ -518,21 +516,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #1b0e58 !important;
+  border-color: #1b0e58 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #1b0e58 !important;
+  border-color: #1b0e58 !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: #1b0e58 !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -574,7 +572,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #1b0e58 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -583,8 +581,21 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: #1b0e58 !important;
   background-color: transparent !important;
+}
+
+.btn-new {
+  background-color: #85bca6;
+  border: solid 1px #85bca6;
+  border-radius: 5px;
+}
+
+.my-logo {
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: #85bca6;
 }
 
 .about-activity {
@@ -645,7 +656,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #1b0e58;
   position: relative;
 }
 
@@ -682,7 +693,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #1b0e58;
 }
 
 .like-item {
@@ -692,8 +703,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #1b0e58 !important;
+  border-color: #1b0e58 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -702,8 +713,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #1b0e58 !important;
+  border-color: #1b0e58 !important;
 }
 
 .animate-like {
@@ -727,7 +738,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #85bca6 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +746,13 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #1b0e58 !important;
+  border-color: #1b0e58 !important;
+}
+.fork-btn-inner > div {
+  color: #fafafa;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 .fork-btn-inner::after {
   display: none !important;
